@@ -48,7 +48,7 @@ Paragraphs are simply any number of consecutive rows of text separated by one or
 First paragraph.
  
 Second paragraph with lots of
-text spread accross multiple lines.
+text spread across multiple lines.
  
 And another paragraph.
 ```
@@ -236,7 +236,7 @@ For methods and properties you may want to document their parameters, results or
   @see [String Programming Guide](document1).
   ```
      
-- **Grouping methods**: `@name <title>`. All methods and properties declared after @name directive will be stored into a group with the given title. These groups are then extracted as tasks in generated HTML. Important: @name must be specified in it's own separate comment preceeding the first group method or property comment for which the task is specified! So this would work:
+- **Grouping methods**: `@name <title>`. All methods and properties declared after @name directive will be stored into a group with the given title. These groups are then extracted as tasks in generated HTML. Important: @name must be specified in it's own separate comment preceding the first group method or property comment for which the task is specified! So this would work:
 
   ```objc
   /** @name Section title */

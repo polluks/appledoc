@@ -62,7 +62,7 @@ Some paragraph with *formatted* text.
  
 - list
     1. sublist
-    2. anoter item
+    2. another item
 - and another one
  
 You can include example blocks:
@@ -112,7 +112,7 @@ Needless to say, you can also cross reference any class, category, protocol, met
 
 **Important:** Template documents are very powerful mechanism of quickly preparing static content with the same simplicity and style as "normal" source code comments. And cross referencing them from other documents or comments is incredibly simple. However there's one caveat - in order to allow appledoc linking to proper file, each template document name must be unique, even if placed in a different path or even included with different `--include` switch!
 				
-# Injecting documention to main index
+# Injecting documentation to main index
 
 Appledoc also allows you to inject arbitrary description to auto-generated main `index.html` file. This is useful if you'd like to include static text to your framework or library main index file or links to static documentation such as companion guides etc. To do it, use `--index-desc` switch describing the path to the document that contains this description:
 
